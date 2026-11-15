@@ -1,0 +1,10 @@
+{
+  "name": "离线化验单解析引擎",
+  "id": "com.app.labscanner.nsh",
+  "version": "1.0.0",
+  "build": 1,
+  "rust": ".",
+  "root": "App",
+  "appearance": "light",
+  "theme": "theme.json"
+}

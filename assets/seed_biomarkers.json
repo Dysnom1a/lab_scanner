@@ -1,0 +1,182 @@
+[
+  {
+    "code": "PAC",
+    "display_name": "血浆醛固酮浓度",
+    "category": "HORMONE",
+    "standard_unit": "ng/dL",
+    "valid_units": ["ng/dL", "pg/mL", "pmol/L"],
+    "conversions": {
+      "ng/dL": 1.0,
+      "pg/mL": 0.1,
+      "pmol/L": 0.036
+    },
+    "aliases": [
+      "PAC",
+      "血浆醛固酮",
+      "血浆醛固酮浓度",
+      "醛固酮",
+      "醛固酮立位",
+      "醛固酮卧位",
+      "ALD",
+      "ALDOSTERONE"
+    ]
+  },
+  {
+    "code": "PRA",
+    "display_name": "血浆肾素活性",
+    "category": "HORMONE",
+    "standard_unit": "ng/mL/h",
+    "valid_units": ["ng/mL/h", "ug/L/h", "pmol/L/min"],
+    "conversions": {
+      "ng/mL/h": 1.0,
+      "ug/L/h": 1.0,
+      "pmol/L/min": 0.077
+    },
+    "aliases": [
+      "PRA",
+      "血浆肾素活性",
+      "肾素活性",
+      "血管紧张素I",
+      "肾素活性立位",
+      "肾素活性卧位"
+    ]
+  },
+  {
+    "code": "DRC",
+    "display_name": "直接肾素浓度",
+    "category": "HORMONE",
+    "standard_unit": "uIU/mL",
+    "valid_units": ["uIU/mL", "mIU/L", "pg/mL"],
+    "conversions": {
+      "uIU/mL": 1.0,
+      "mIU/L": 1.0,
+      "pg/mL": 1.67
+    },
+    "aliases": [
+      "DRC",
+      "直接肾素",
+      "直接肾素浓度",
+      "肾素浓度",
+      "血浆肾素浓度",
+      "肾素",
+      "RENIN"
+    ]
+  },
+  {
+    "code": "ANG_II",
+    "display_name": "血管紧张素II",
+    "category": "HORMONE",
+    "standard_unit": "pg/mL",
+    "valid_units": ["pg/mL", "ng/L"],
+    "conversions": {
+      "pg/mL": 1.0,
+      "ng/L": 1.0
+    },
+    "aliases": [
+      "ANG_II",
+      "AII",
+      "血管紧张素II",
+      "血管紧张素2"
+    ]
+  },
+  {
+    "code": "ARR",
+    "display_name": "醛固酮/肾素比值",
+    "category": "RATIO",
+    "standard_unit": "(ng/dL)/(ng/mL/h)",
+    "valid_units": ["(ng/dL)/(ng/mL/h)", "ng/dL:ng/mL/h", "ratio"],
+    "conversions": {
+      "(ng/dL)/(ng/mL/h)": 1.0,
+      "ng/dL:ng/mL/h": 1.0,
+      "ratio": 1.0
+    },
+    "aliases": [
+      "ARR",
+      "醛固酮肾素比值",
+      "醛固酮/肾素比值",
+      "醛固酮/肾素",
+      "醛固酮肾素",
+      "PAC/PRA",
+      "PAC/DRC",
+      "醛固酮与肾素比值"
+    ]
+  },
+  {
+    "code": "K_SERUM",
+    "display_name": "血清钾",
+    "category": "ELECTROLYTE",
+    "standard_unit": "mmol/L",
+    "valid_units": ["mmol/L", "mEq/L"],
+    "conversions": {
+      "mmol/L": 1.0,
+      "mEq/L": 1.0
+    },
+    "aliases": [
+      "K",
+      "K+",
+      "钾",
+      "血钾",
+      "血清钾",
+      "钾测定",
+      "血清钾测定"
+    ]
+  },
+  {
+    "code": "NA_SERUM",
+    "display_name": "血清钠",
+    "category": "ELECTROLYTE",
+    "standard_unit": "mmol/L",
+    "valid_units": ["mmol/L", "mEq/L"],
+    "conversions": {
+      "mmol/L": 1.0,
+      "mEq/L": 1.0
+    },
+    "aliases": [
+      "NA",
+      "NA+",
+      "钠",
+      "血钠",
+      "血清钠",
+      "钠测定",
+      "血清钠测定"
+    ]
+  },
+  {
+    "code": "CREA",
+    "display_name": "血肌酐",
+    "category": "RENAL",
+    "standard_unit": "umol/L",
+    "valid_units": ["umol/L", "mg/dL"],
+    "conversions": {
+      "umol/L": 1.0,
+      "mg/dL": 88.4
+    },
+    "aliases": [
+      "CREA",
+      "CR",
+      "SCR",
+      "肌酐",
+      "血肌酐",
+      "血清肌酐",
+      "肌酐测定"
+    ]
+  },
+  {
+    "code": "EGFR",
+    "display_name": "估算肾小球滤过率",
+    "category": "RENAL",
+    "standard_unit": "mL/min/1.73m2",
+    "valid_units": ["mL/min/1.73m2", "mL/min"],
+    "conversions": {
+      "mL/min/1.73m2": 1.0,
+      "mL/min": 1.0
+    },
+    "aliases": [
+      "EGFR",
+      "GFR",
+      "肾小球滤过率",
+      "估算肾小球滤过率",
+      "CKD-EPI"
+    ]
+  }
+]
